@@ -30,7 +30,11 @@
         }
     }
 }
-
+.tabbar, .tabs-ios, .tabs-wp{
+  .tab-button-icon {
+    height:30px;
+  }
+}
 .tabs-md .tab-button.icon-only{
   display: none;
 }

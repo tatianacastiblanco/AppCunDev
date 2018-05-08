@@ -13,7 +13,8 @@ page-home {
 .toolbar-background-ios {
     background-color: color($colors, primary);
 }
-.tabs-md .tabbar, .tabs-ios .tabbar{
+.tabs-md .tabbar,.tabs-ios .tabbar { 
+    background-image: url(../assets/imgs/pie-de-pagina.png);
     background-color: transparent;
     background-position:center;
     background-size:contain;
@@ -22,12 +23,11 @@ page-home {
     -o-background-size: contain;
     max-width: 100%;
     height: 58px;
-    
-    background-image: url(../assets/imgs/piepagina.png);
+    border-top-width: 0;    
 }
-// .tabs-ios .tabbar{
-//     background-color: color($colors, secondary);
-// }
+.tabs-ios .tabbar{
+height: 65px !important;
+}
 .content-md{
     background-color: color($colors, primary);
     margin-top: 110px;
