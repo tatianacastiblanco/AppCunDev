@@ -1,6 +1,9 @@
 page-home {
 
 }
+.ion-page{
+    background-color: color($colors, primary);
+}
 .toolbar-background-md {
     background-color: color($colors, primary);
 }
@@ -15,15 +18,28 @@ page-home {
 }
 .content-md{
     background-color: color($colors, primary);
+    margin-top: 110px;
 }
 .content-ios{
     background-color:color($colors, primary);
+    margin-top: 110px;
+}
+.content .content-md{
+    margin-top: 106px;
 }
 .toolbar-title-md {
     text-align: center;
+    height: 91px;
 }
 .toolbar-title-ios {
     text-align: center;
+    height: 91px;
+}
+.ion-app.md [padding] .scroll-content{
+    padding: 10px;
+}
+.header-md{
+    height: 0px;
 }
 .imgCun{
     margin-top: 10px;
@@ -32,13 +48,13 @@ page-home {
 .searchbar-md .searchbar-input {
     color: #fff;
     background: #005c61;
-    padding: 1px 49px;
+    padding: 0px 49px;
     border-radius: 20px;
 }
 .searchbar-ios .searchbar-input {
     color: #fff;
     background: #005c61;
-    padding: 1px 49px;
+    padding: 0px 49px;
     border-radius: 20px;
 }
 .grid {
@@ -82,4 +98,7 @@ page-home {
  }
 ion-app.md [padding] {
     padding: 7px;
+}
+.tabs-md .tab-button-text {
+    visibility: hidden;
 }

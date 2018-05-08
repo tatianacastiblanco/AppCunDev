@@ -18,8 +18,8 @@
     .tab-button-icon {
         background-repeat:no-repeat;
         background-position:center;
-        height:24px;
-        width:24px;
+        height:36px;
+        width:10px;
         background-size:contain;
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -37,13 +37,15 @@
 .tabs-ios {
   a[aria-selected=false]{
      .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label="noticiasIco"] {
+       width: 42px;
       background-image: url(../assets/imgs/19noticias.png) !important;
     }
     .tab-button-icon[ng-reflect-name=ubicacionIco], .tab-button-icon[aria-label=ubicacionIco] {
       background-image: url(../assets/imgs/20sedes.png);
     }
-    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] {
+    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] .personality{
       background-image: url(../assets/imgs/21cun.png);
+      width: 70px;
     }
     .tab-button-icon[ng-reflect-name=directorioIco], .tab-button-icon[aria-label=directorioIco] {
         background-image: url(../assets/imgs/22directorio.png);
@@ -59,12 +61,14 @@
     //}
     .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label=noticiasIco] {
       background-image: url(../assets/imgs/19noticias.png);
+      width: 42px;
     }
     .tab-button-icon[ng-reflect-name=ubicacionIco], .tab-button-icon[aria-label=ubicacionIco] {
       background-image: url(../assets/imgs/20sedes.png);
     }
-    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] {
+    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] .personality{
       background-image: url(../assets/imgs/21cun.png);
+      width: 70px;
     }
     .tab-button-icon[ng-reflect-name=directorioIco], .tab-button-icon[aria-label=directorioIco] {
         background-image: url(../assets/imgs/22directorio.png);
@@ -80,11 +84,13 @@
   a[aria-selected=false]{
      .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label="noticiasIco"] {
       background-image: url(../assets/imgs/19noticias.png);
+      width: 42px;
     }
     .tab-button-icon[ng-reflect-name=ubicacionIco], .tab-button-icon[aria-label=ubicacionIco] {
       background-image: url(../assets/imgs/20sedes.png);
     }
-    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] {
+    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] .personality{
+      width: 70px;
       background-image: url(../assets/imgs/21cun.png);
     }
     .tab-button-icon[ng-reflect-name=directorioIco], .tab-button-icon[aria-label=laUIc] {
@@ -103,11 +109,13 @@
     //}
     .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label=noticiasIco] {
       background-image: url(../assets/imgs/19noticias.png);
+      width: 42px;
     }
     .tab-button-icon[ng-reflect-name=ubicacionIco], .tab-button-icon[aria-label=ubicacionIco] {
       background-image: url(../assets/imgs/20sedes.png);
     }
-    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] {
+    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] .personality{
+      width: 70px;
       background-image: url(../assets/imgs/21cun.png);
     }
     .tab-button-icon[ng-reflect-name=directorioIco], .tab-button-icon[aria-label=directorioIco] {
@@ -124,11 +132,13 @@
   a[aria-selected=false]{
      .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label="noticiasIco"] {
       background-image: url(../assets/imgs/19noticias.png);
+      width: 42px;
     }
     .tab-button-icon[ng-reflect-name=home], .tab-button-icon[aria-label=home] {
       background-image: url(../assets/img/20sedes.png);
     }
-    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] {
+    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] .personality{
+      width: 70px;
       background-image: url(../assets/img/21cun.png);
     }
     .tab-button-icon[ng-reflect-name=directorioIco], .tab-button-icon[aria-label=directorioIco] {
@@ -146,11 +156,13 @@
     //}
     .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label=noticiasIco] {
       background-image: url(../assets/imgs/19noticias.png);
+      width: 42px;
     }
     .tab-button-icon[ng-reflect-name=home], .tab-button-icon[aria-label=home] {
       background-image: url(../assets/img/20sedes.png);
     }
-    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] {
+    .tab-button-icon[ng-reflect-name=laUIco], .tab-button-icon[aria-label=laUIco] .personality{
+      width: 70px;
       background-image: url(../assets/img/21cun.png);
     }
     .tab-button-icon[ng-reflect-name=directorioIco], .tab-button-icon[aria-label=directorioIco] {
