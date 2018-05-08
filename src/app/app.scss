@@ -34,6 +34,10 @@
   display: none;
 }
 
+.tabs-ios .tab-button.icon-only{
+  display: none;
+}
+
 .tabs-ios {
   a[aria-selected=false]{
      .tab-button-icon[ng-reflect-name=noticiasIco], .tab-button-icon[aria-label="noticiasIco"] {

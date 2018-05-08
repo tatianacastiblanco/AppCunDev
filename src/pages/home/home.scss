@@ -4,6 +4,9 @@ page-home {
 .ion-page{
     background-color: color($colors, primary);
 }
+.toolbar-ios {
+    min-height: 100px;
+}
 .toolbar-background-md {
     background-color: color($colors, primary);
 }
@@ -22,19 +25,25 @@ page-home {
 }
 .content-ios{
     background-color:color($colors, primary);
-    margin-top: 110px;
+    margin-top: 0px;
 }
 .content .content-md{
     margin-top: 106px;
+}
+.content .content-ios{
+    margin-top: 0px;
 }
 .toolbar-title-md {
     text-align: center;
     height: 91px;
 }
 .toolbar-title-ios {
-    text-align: center;
-    height: 91px;
+    margin-top: 20px;
 }
+.toolbar-ios ion-title{
+    padding: 0 10px;
+}
+
 .ion-app.md [padding] .scroll-content{
     padding: 10px;
 }
@@ -51,11 +60,12 @@ page-home {
     padding: 0px 49px;
     border-radius: 20px;
 }
-.searchbar-ios .searchbar-input {
+.toolbar .searchbar-ios .searchbar-input {
     color: #fff;
     background: #005c61;
     padding: 0px 49px;
     border-radius: 20px;
+    width: 100%
 }
 .grid {
     padding: 0px;
@@ -100,5 +110,8 @@ ion-app.md [padding] {
     padding: 7px;
 }
 .tabs-md .tab-button-text {
+    visibility: hidden;
+}
+.tabs-ios .tab-button-text {
     visibility: hidden;
 }
